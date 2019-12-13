@@ -23,7 +23,6 @@
 
 section{
     padding: 180px 0px;
-    margin: 0px 10px 20px 20px;
 }
 
 .nav{
@@ -57,22 +56,32 @@ section{
     padding: 20px 15px;
     text-decoration: none;
 }
-.content h2{
+
+.about{
+    margin: 0px auto;
+    line-height: 2;
+    text-align: center;
+}
+
+.about h2{
     font-family: Lato;
     font-size: 50px;
     color: #09b66d;
-    margin: 30px 5px 0px 0px;
+    margin: 30px 5px 0px 20px;
     text-transform: capitalize;
     letter-spacing: 1px;
+    text-align: left;
 }
 
-.content p{
+.about p{
     font-family: 'Nunito';
     font-size: 20px;
     color: #000000;
-    margin: 10px auto;
+    margin: 10px 0px 20px 20px;
     line-height: 1.5;
+    padding: 0px 20px;
 }
+
 
 .logo{
     height: 75px;
@@ -81,8 +90,8 @@ section{
 }
 
 .foto{
-    height: 230px;
-    width: 350px;
+    height: 350px;
+    width: 500px;
     size: cover;
     margin: 0px auto;
 }
@@ -112,4 +121,3 @@ footer{
     height: 30px;
     margin: 15px 0px 30px 30px;
 }
-
